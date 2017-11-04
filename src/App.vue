@@ -7,9 +7,7 @@
       <div class="tab-item">
         <router-link v-bind:to="'/goods'">
           商品
-
         </router-link>
-
       </div>
       <div class="tab-item">
         <router-link to="/ratings">
@@ -26,8 +24,6 @@
     <keep-alive>
       <router-view :seller="seller"></router-view>
     </keep-alive>
-
-
   </div>
 </template>
 <script type="text/ecmascript-6">
@@ -62,7 +58,7 @@
     }
   };
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" >
   @import "common/stylus/mixin.styl";
 
   .tab {
@@ -71,7 +67,7 @@
     height: 40px;
     line-height: 40px;
     /*border: 1px solid rgba(7,17,27,0.1);*/
-  border-1px(rgba(7, 17, 27, 0.1));
+  border-1px:(rgba(7, 17, 27, 0.1));
   }
 
   .tab .tab-item {
