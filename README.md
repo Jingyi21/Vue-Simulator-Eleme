@@ -1,9 +1,9 @@
 >  本项目是基于vue2最新实战项目，vue2 +vue-router2 + es6 +webpack 高仿饿了么app,是适合新手进阶的绝佳教程。
 
-###首先
+### 首先
  项目原Readme：https://github.com/liangxiaojuan/eleme/blob/master/README.md
 
-###安装
+### 安装
 ***
 项目地址：（`git clone`）
 ```shell
@@ -37,7 +37,7 @@ npm install -g eslint
 ```
 npm install friendly-errors-webpack-plugin --save-dev
 ```
-###目录结构
+### 目录结构
 ***
 <pre>
 ├── build              // 构建服务和webpack配置
@@ -63,7 +63,7 @@ npm install friendly-errors-webpack-plugin --save-dev
 *  stylus
 *  webpack
 
-###上图
+### 上图
 ***
 * 加入购物车动画
 
